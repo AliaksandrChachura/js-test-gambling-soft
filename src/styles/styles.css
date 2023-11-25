@@ -1,0 +1,21 @@
+@import 'wrapper.scss';
+
+/* .body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+} */
+
+.wrapper {
+ position: relative;
+ height: 90vh;
+ width: auto;
+ margin: 20px;
+ color:#141414;
+}
+
+.wrapper-header {
+ height: 30px;
+}
+
+
