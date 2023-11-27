@@ -7,7 +7,9 @@
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "watch": "cwebpack --mode development --watch",
-    "start": "webpack-dev-server --mode development --open"
+    "start": "webpack-dev-server --mode development --open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "browserslist": "> 0.25%, not dead",
   "keywords": [
@@ -28,6 +30,7 @@
     "css-minimizer-webpack-plugin": "^5.0.1",
     "csv-loader": "^3.0.5",
     "file-loader": "^6.2.0",
+    "gh-pages": "^6.1.0",
     "html-webpack-plugin": "^5.5.3",
     "js-loader": "^0.1.1",
     "mini-css-extract-plugin": "^2.7.6",
