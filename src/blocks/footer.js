@@ -1,9 +1,10 @@
 import calendarLogo from '../assets/images/calendar-logo.svg'
 import capLogo from '../assets/images/cap-logo.svg'
 import handsLogo from '../assets/images/hands-logo.svg'
+import { ukrainian, belarusian } from '../models/languages.js';
 
 const logos = [calendarLogo, capLogo, handsLogo];
-const footerLanguage = Object.values(JSON.parse(localStorage.getItem('language')).footer);
+const footerLanguage = Object.values(ukrainian.footer); // Object.values(JSON.parse(localStorage.getItem('language')).footer);
 const years = [5, 900, 40];
 
 function createElements() {

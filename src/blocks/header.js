@@ -1,6 +1,7 @@
 import Logo from '../assets/images/logo.svg';
+import { ukrainian, belarusian } from '../models/languages.js';
 
-const headerLanguage = JSON.parse(localStorage.getItem('language')).header;
+const headerLanguage = ukrainian.header; // JSON.parse(localStorage.getItem('language')).header;
 const options = ['ua', 'by'];
 
 // Create wrapper elements

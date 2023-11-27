@@ -5,8 +5,9 @@ import student2 from '../assets/images/student2.png'
 import student3 from '../assets/images/student3.png'
 import playLogo from '../assets/images/play-logo.svg'
 import arrowRight from '../assets/images/arrow-right-logo.svg'
+import { ukrainian, belarusian } from '../models/languages.js';
 
-const mainLanguage = JSON.parse(localStorage.getItem('language')).main;
+const mainLanguage = ukrainian.main; // JSON.parse(localStorage.getItem('language')).main;
 const students = [student1, student2, student3];
 
 const main = document.createElement('div');
